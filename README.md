@@ -1,8 +1,10 @@
 # Eclipse
 
-> Tweette detaylar mevcuttu.
+> Tweette detaylar mevcuttur.
+> https://x.com/Ruesandora0/status/1735024238535528666?s=20
 
 > İşlemleri herhangi bir sunucumuzda yapalım muhim değil.
+> ben islemleri digital ocean sunucusunda yapiyorum. 2 ay gecerli toplam 200$ harcayabilecegim kredi tanimlandi.
 
 
 ## Contrat Deploy:
@@ -22,6 +24,10 @@ solana-keygen new
 
 # cüzdana token alıyoruz
 solana airdrop 10
+
+#update sudo
+sudo apt-get update
+sudo apt-get install bzip2
 
 # bu komut çalışması için 8 ram lazım - github swap space repom ile çözersiniz.
 solana-test-validator
@@ -60,8 +66,12 @@ sudo apt install git
 git clone https://github.com/Eclipse-Laboratories-Inc/testnet-deposit.git
 cd testnet-deposit
 
+# asagidaki komutlarda hata alirsan ilgili posta bak: https://x.com/Ruesandora0/status/1735035324496273902?s=20
+npm install --global yarn
 yarn install
 yarn add ethers
+
+root@avail-node:~/example-helloworld/testnet-deposit# 
 
 # Altta ki komutu düzenleyelim (tırnakları kaldırın):
 node deposit.js <solanaAdresi> 0x7C9e161ebe55000a3220F972058Fb83273653a6e 500000 100 <MetamaskPrivateKeyi> https://rpc.sepolia.org
