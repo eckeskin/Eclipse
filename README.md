@@ -83,3 +83,4 @@ node deposit.js <solanaAdresi> 0x7C9e161ebe55000a3220F972058Fb83273653a6e 500000
 > https://explorer.dev.eclipsenetwork.xyz/?cluster=testnet burdan solana cüzdanı kontrol edip eth var mı yok mu bakıyoruz. varsa ok.
 
 > Formu doldurun: https://docs.google.com/forms/d/e/1FAIpQLSfJQCFBKHpiy2HVw9lTjCj7k0BqNKnP6G1cd0YdKhaPLWD-AA/viewform
+> form dolduruldu.
